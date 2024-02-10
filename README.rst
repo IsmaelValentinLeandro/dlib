@@ -1,13 +1,16 @@
 LINUX ARM
 ===================
-``sudo apt update``
-``sudo apt install python3.9``
-``sudo apt-get install python3-dev python3-pip``
-``sudo -H pip3 install -U pip numpy``
-``sudo apt install cmake``
-``pip install opencv-python``
-``pip install requests``
-``apt install libgl1-mesa-glx``
+
+.. code:: python
+
+    sudo apt update
+    sudo apt install python3.9
+    sudo apt-get install python3-dev python3-pip
+    sudo -H pip3 install -U pip numpy
+    sudo apt install cmake
+    pip install opencv-python
+    pip install requests
+    apt install libgl1-mesa-glx
 
 **COMPILAR**
 ===================
@@ -26,19 +29,24 @@ LINUX ARM
     cd ..
     pkg-config --libs --cflags dlib-1
 
-
 **INSTALAR NO PYTHON**
 ===================
-``cd dlib-19.9``
-``sudo python3 setup.py install``
+
+.. code:: python
+
+    cd dlib-19.9
+    sudo python3 setup.py install
 
 **OPCIONAL**
 ===================
-``sudo pip3 install virtualenv virtualenvwrapper``
-``echo "# Virtual Environment Wrapper" >> ~/.bashrc``
-``echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc``
-``source ~/.bashrc``
-``mkvirtualenv dlib -p python3``
-``workon dlib ``
-``pip3 install numpy scipy matplotlib scikit-image scikit-learn ipython``
-``deactivate``
+
+.. code:: python
+
+    sudo pip3 install virtualenv virtualenvwrapper
+    echo "# Virtual Environment Wrapper" >> ~/.bashrc
+    echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
+    source ~/.bashrc
+    mkvirtualenv dlib -p python3
+    workon dlib 
+    pip3 install numpy scipy matplotlib scikit-image scikit-learn ipython
+    deactivate
