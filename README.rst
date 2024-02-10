@@ -1,4 +1,4 @@
-1. LINUX ARM
+1. LINUX ARM NANO PI NEO PLUS 2
 ===================
 
 .. code:: python
@@ -12,8 +12,7 @@
     pip install requests
     apt install libgl1-mesa-glx
 
-2. **COMPILAR**
-===================
+1.1. **COMPILAR**
 
 .. code:: python
 
@@ -29,7 +28,7 @@
     cd ..
     pkg-config --libs --cflags dlib-1
 
-3. **INSTALAR NO PYTHON**
+1.2. **INSTALAR NO PYTHON**
 ===================
 
 .. code:: python
