@@ -29,7 +29,6 @@
     pkg-config --libs --cflags dlib-1
 
 1.2. **INSTALAR NO PYTHON**
-===================
 
 .. code:: python
 
