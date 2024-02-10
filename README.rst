@@ -44,7 +44,20 @@
     echo "# Virtual Environment Wrapper" >> ~/.bashrc
     echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
     source ~/.bashrc
-    mkvirtualenv dlib -p python3
-    workon dlib 
-    pip3 install numpy scipy matplotlib scikit-image scikit-learn ipython
+
+    # create virtual environment
+    mkvirtualenv ml-py3 -p python3
+    workon ml-py3
+     
+    # now install python libraries within this virtual environment
+    pip install numpy scipy matplotlib scikit-image scikit-learn ipython
+     
+    # if you want to install dlib from pip
+    pip install dlib
+     
+    # else if you have compiled from source move to dlib's root directory
+    cd dlib-19.9
+    python setup.py install
+     
+    # quit virtual environment
     deactivate
