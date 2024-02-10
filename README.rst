@@ -1,4 +1,4 @@
-LINUX ARM
+1. LINUX ARM
 ===================
 
 .. code:: python
@@ -12,7 +12,7 @@ LINUX ARM
     pip install requests
     apt install libgl1-mesa-glx
 
-**COMPILAR**
+2. **COMPILAR**
 ===================
 
 .. code:: python
@@ -29,7 +29,7 @@ LINUX ARM
     cd ..
     pkg-config --libs --cflags dlib-1
 
-**INSTALAR NO PYTHON**
+3. **INSTALAR NO PYTHON**
 ===================
 
 .. code:: python
